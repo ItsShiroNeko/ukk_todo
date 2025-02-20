@@ -98,8 +98,4 @@ $result = $conn->query("SELECT * FROM tasks");
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> 42f3a04e5f20b69551e55893340688b25011d66a

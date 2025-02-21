@@ -37,7 +37,7 @@ $result = $conn->query("SELECT * FROM tasks");
                             </div>
                             <div class="mb-3">
                                 <label class="form-label text-muted">Tanggal</label>
-                                <input type="date" name="date" class="form-control shadow-sm" required>
+                                <input type="date" name="date" class="form-control shadow-sm" value="<?php echo(date("Y-m-d",time()));?>" required>
                             </div>
                             <button type="submit" class="btn btn-primary w-100 shadow-sm"><i class="fas fa-plus me-2"></i>Tambah</button>
                         </form>
@@ -98,8 +98,4 @@ $result = $conn->query("SELECT * FROM tasks");
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> 42f3a04e5f20b69551e55893340688b25011d66a
